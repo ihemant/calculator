@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EACC4285164CD6C5004D5A81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC4284164CD6C5004D5A81 /* UIKit.framework */; };
+		EACC4287164CD6C5004D5A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC4286164CD6C5004D5A81 /* Foundation.framework */; };
+		EACC4289164CD6C5004D5A81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EACC4288164CD6C5004D5A81 /* CoreGraphics.framework */; };
+		EACC428F164CD6C5004D5A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EACC428D164CD6C5004D5A81 /* InfoPlist.strings */; };
+		EACC4291164CD6C5004D5A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC4290164CD6C5004D5A81 /* main.m */; };
+		EACC4295164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC4294164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.m */; };
+		EACC4297164CD6C5004D5A81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EACC4296164CD6C5004D5A81 /* Default.png */; };
+		EACC4299164CD6C5004D5A81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACC4298164CD6C5004D5A81 /* Default@2x.png */; };
+		EACC429B164CD6C5004D5A81 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EACC429A164CD6C5004D5A81 /* Default-568h@2x.png */; };
+		EACC429E164CD6C5004D5A81 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC429C164CD6C5004D5A81 /* MainStoryboard.storyboard */; };
+		EACC42A1164CD6C5004D5A81 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC42A0164CD6C5004D5A81 /* ScientificCalculatorViewController.m */; };
+		EACC42A9164CD988004D5A81 /* ScientificCalci.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC42A8164CD988004D5A81 /* ScientificCalci.m */; };
+		EAE61E01164F9801003D1189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE61DFF164F9801003D1189 /* QuartzCore.framework */; };
+		EAE61E02164F9801003D1189 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE61E00164F9801003D1189 /* QuickLook.framework */; };
+		EAE61E12164FBC58003D1189 /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE61E0E164FBC57003D1189 /* b2.png */; };
+		EAEF3AAA1654B0B800B284C6 /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3AA91654B0B800B284C6 /* abc.png */; };
+		EAEF3AD21654C04B00B284C6 /* button07-20110808200421-00008.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3AC21654C04B00B284C6 /* button07-20110808200421-00008.png */; };
+		EAEF3AEC1654CCBF00B284C6 /* abcorange.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3AE41654CCBF00B284C6 /* abcorange.png */; };
+		EAEF3AF21654E42800B284C6 /* mynn.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3AF11654E42800B284C6 /* mynn.png */; };
+		EAEF3B041654F04500B284C6 /* 12962I3B530-35013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3AFB1654F04500B284C6 /* 12962I3B530-35013.jpg */; };
+		EAEF3B0F1654F5D200B284C6 /* 12962I3B530-35013dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3B0E1654F5D200B284C6 /* 12962I3B530-35013dark.jpg */; };
+		EAEF3B11165503CD00B284C6 /* highlightred.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEF3B10165503CD00B284C6 /* highlightred.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EACC4280164CD6C5004D5A81 /* ScientificCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScientificCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACC4284164CD6C5004D5A81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EACC4286164CD6C5004D5A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EACC4288164CD6C5004D5A81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EACC428C164CD6C5004D5A81 /* ScientificCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScientificCalculator-Info.plist"; sourceTree = "<group>"; };
+		EACC428E164CD6C5004D5A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EACC4290164CD6C5004D5A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EACC4292164CD6C5004D5A81 /* ScientificCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScientificCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		EACC4293164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScientificCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		EACC4294164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculatorAppDelegate.m; sourceTree = "<group>"; };
+		EACC4296164CD6C5004D5A81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EACC4298164CD6C5004D5A81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EACC429A164CD6C5004D5A81 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EACC429D164CD6C5004D5A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EACC429F164CD6C5004D5A81 /* ScientificCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScientificCalculatorViewController.h; sourceTree = "<group>"; };
+		EACC42A0164CD6C5004D5A81 /* ScientificCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculatorViewController.m; sourceTree = "<group>"; };
+		EACC42A7164CD988004D5A81 /* ScientificCalci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScientificCalci.h; sourceTree = "<group>"; };
+		EACC42A8164CD988004D5A81 /* ScientificCalci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScientificCalci.m; sourceTree = "<group>"; };
+		EAE61DFF164F9801003D1189 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAE61E00164F9801003D1189 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		EAE61E0E164FBC57003D1189 /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		EAEF3AA91654B0B800B284C6 /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		EAEF3AC21654C04B00B284C6 /* button07-20110808200421-00008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button07-20110808200421-00008.png"; sourceTree = "<group>"; };
+		EAEF3AE41654CCBF00B284C6 /* abcorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abcorange.png; sourceTree = "<group>"; };
+		EAEF3AF11654E42800B284C6 /* mynn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mynn.png; sourceTree = "<group>"; };
+		EAEF3AFB1654F04500B284C6 /* 12962I3B530-35013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12962I3B530-35013.jpg"; sourceTree = "<group>"; };
+		EAEF3B0E1654F5D200B284C6 /* 12962I3B530-35013dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12962I3B530-35013dark.jpg"; sourceTree = "<group>"; };
+		EAEF3B10165503CD00B284C6 /* highlightred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightred.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EACC427D164CD6C5004D5A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE61E01164F9801003D1189 /* QuartzCore.framework in Frameworks */,
+				EAE61E02164F9801003D1189 /* QuickLook.framework in Frameworks */,
+				EACC4285164CD6C5004D5A81 /* UIKit.framework in Frameworks */,
+				EACC4287164CD6C5004D5A81 /* Foundation.framework in Frameworks */,
+				EACC4289164CD6C5004D5A81 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EACC4275164CD6C5004D5A81 = {
+			isa = PBXGroup;
+			children = (
+				EACC428A164CD6C5004D5A81 /* ScientificCalculator */,
+				EACC4283164CD6C5004D5A81 /* Frameworks */,
+				EACC4281164CD6C5004D5A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EACC4281164CD6C5004D5A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EACC4280164CD6C5004D5A81 /* ScientificCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACC4283164CD6C5004D5A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE61DFF164F9801003D1189 /* QuartzCore.framework */,
+				EAE61E00164F9801003D1189 /* QuickLook.framework */,
+				EACC4284164CD6C5004D5A81 /* UIKit.framework */,
+				EACC4286164CD6C5004D5A81 /* Foundation.framework */,
+				EACC4288164CD6C5004D5A81 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACC428A164CD6C5004D5A81 /* ScientificCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EAD779611650ACD70051E962 /* Images */,
+				EACC4293164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.h */,
+				EACC4294164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.m */,
+				EACC429C164CD6C5004D5A81 /* MainStoryboard.storyboard */,
+				EACC429F164CD6C5004D5A81 /* ScientificCalculatorViewController.h */,
+				EACC42A0164CD6C5004D5A81 /* ScientificCalculatorViewController.m */,
+				EACC42A7164CD988004D5A81 /* ScientificCalci.h */,
+				EACC42A8164CD988004D5A81 /* ScientificCalci.m */,
+				EACC428B164CD6C5004D5A81 /* Supporting Files */,
+			);
+			path = ScientificCalculator;
+			sourceTree = "<group>";
+		};
+		EACC428B164CD6C5004D5A81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC428C164CD6C5004D5A81 /* ScientificCalculator-Info.plist */,
+				EACC428D164CD6C5004D5A81 /* InfoPlist.strings */,
+				EACC4290164CD6C5004D5A81 /* main.m */,
+				EACC4292164CD6C5004D5A81 /* ScientificCalculator-Prefix.pch */,
+				EACC4296164CD6C5004D5A81 /* Default.png */,
+				EACC4298164CD6C5004D5A81 /* Default@2x.png */,
+				EACC429A164CD6C5004D5A81 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD5115D165623A00047E91D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EAE61E0E164FBC57003D1189 /* b2.png */,
+				EAEF3AF11654E42800B284C6 /* mynn.png */,
+				EAEF3B10165503CD00B284C6 /* highlightred.png */,
+				EAEF3AA91654B0B800B284C6 /* abc.png */,
+				EAEF3AE41654CCBF00B284C6 /* abcorange.png */,
+				EAEF3AC21654C04B00B284C6 /* button07-20110808200421-00008.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		EAD779611650ACD70051E962 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5115D165623A00047E91D /* Buttons */,
+				EAEF3AF91654F03800B284C6 /* background */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EAEF3AF91654F03800B284C6 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF3AFB1654F04500B284C6 /* 12962I3B530-35013.jpg */,
+				EAEF3B0E1654F5D200B284C6 /* 12962I3B530-35013dark.jpg */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EACC427F164CD6C5004D5A81 /* ScientificCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACC42A4164CD6C5004D5A81 /* Build configuration list for PBXNativeTarget "ScientificCalculator" */;
+			buildPhases = (
+				EACC427C164CD6C5004D5A81 /* Sources */,
+				EACC427D164CD6C5004D5A81 /* Frameworks */,
+				EACC427E164CD6C5004D5A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScientificCalculator;
+			productName = ScientificCalculator;
+			productReference = EACC4280164CD6C5004D5A81 /* ScientificCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EACC4277164CD6C5004D5A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ScientificCalculator;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = GNDBL;
+			};
+			buildConfigurationList = EACC427A164CD6C5004D5A81 /* Build configuration list for PBXProject "ScientificCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EACC4275164CD6C5004D5A81;
+			productRefGroup = EACC4281164CD6C5004D5A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EACC427F164CD6C5004D5A81 /* ScientificCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EACC427E164CD6C5004D5A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC428F164CD6C5004D5A81 /* InfoPlist.strings in Resources */,
+				EACC4297164CD6C5004D5A81 /* Default.png in Resources */,
+				EACC4299164CD6C5004D5A81 /* Default@2x.png in Resources */,
+				EACC429B164CD6C5004D5A81 /* Default-568h@2x.png in Resources */,
+				EACC429E164CD6C5004D5A81 /* MainStoryboard.storyboard in Resources */,
+				EAE61E12164FBC58003D1189 /* b2.png in Resources */,
+				EAEF3AAA1654B0B800B284C6 /* abc.png in Resources */,
+				EAEF3AD21654C04B00B284C6 /* button07-20110808200421-00008.png in Resources */,
+				EAEF3AEC1654CCBF00B284C6 /* abcorange.png in Resources */,
+				EAEF3AF21654E42800B284C6 /* mynn.png in Resources */,
+				EAEF3B041654F04500B284C6 /* 12962I3B530-35013.jpg in Resources */,
+				EAEF3B0F1654F5D200B284C6 /* 12962I3B530-35013dark.jpg in Resources */,
+				EAEF3B11165503CD00B284C6 /* highlightred.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EACC427C164CD6C5004D5A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACC4291164CD6C5004D5A81 /* main.m in Sources */,
+				EACC4295164CD6C5004D5A81 /* ScientificCalculatorAppDelegate.m in Sources */,
+				EACC42A1164CD6C5004D5A81 /* ScientificCalculatorViewController.m in Sources */,
+				EACC42A9164CD988004D5A81 /* ScientificCalci.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EACC428D164CD6C5004D5A81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC428E164CD6C5004D5A81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EACC429C164CD6C5004D5A81 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACC429D164CD6C5004D5A81 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EACC42A2164CD6C5004D5A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EACC42A3164CD6C5004D5A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EACC42A5164CD6C5004D5A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScientificCalculator/ScientificCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ScientificCalculator/ScientificCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EACC42A6164CD6C5004D5A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScientificCalculator/ScientificCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ScientificCalculator/ScientificCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EACC427A164CD6C5004D5A81 /* Build configuration list for PBXProject "ScientificCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC42A2164CD6C5004D5A81 /* Debug */,
+				EACC42A3164CD6C5004D5A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EACC42A4164CD6C5004D5A81 /* Build configuration list for PBXNativeTarget "ScientificCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACC42A5164CD6C5004D5A81 /* Debug */,
+				EACC42A6164CD6C5004D5A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EACC4277164CD6C5004D5A81 /* Project object */;
+}
